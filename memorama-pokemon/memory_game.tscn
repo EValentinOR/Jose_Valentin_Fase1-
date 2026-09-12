@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://b10v5xq5awis6"]
+
+[ext_resource type="Script" uid="uid://y5ihsnhbiivq" path="res://memory_game.gd" id="1_kfi1n"]
+[ext_resource type="PackedScene" uid="uid://ckmt4kgew8voe" path="res://card.tscn" id="2_t11gb"]
+[ext_resource type="Texture2D" uid="uid://8rpouckj3rh5" path="res://memorama_images/AGUMON.jpg" id="3_i6wfu"]
+[ext_resource type="Texture2D" uid="uid://dym5khojgddrv" path="res://memorama_images/CHARMANDER.jpg" id="4_leevb"]
+[ext_resource type="Texture2D" uid="uid://c42h2c2hmyhdq" path="res://memorama_images/JIRACHI.jpg" id="5_jjnx1"]
+[ext_resource type="Texture2D" uid="uid://bsagu13al5xol" path="res://memorama_images/MARILL.jpg" id="6_url4j"]
+[ext_resource type="Texture2D" uid="uid://bh5xiiwr8q3a" path="res://memorama_images/PIKACHU.jpg" id="7_wq4se"]
+[ext_resource type="Texture2D" uid="uid://cm6lyt3pw558b" path="res://memorama_images/PIPLUP.jpg" id="8_wqxgs"]
+[ext_resource type="Texture2D" uid="uid://bumcru2upcy8q" path="res://memorama_images/SYLVEON.jpg" id="9_cq0qh"]
+
+[node name="MemoryGame" type="Control" unique_id=1735381988]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kfi1n")
+card_scene = ExtResource("2_t11gb")
+card_images = Array[Texture2D]([ExtResource("3_i6wfu"), ExtResource("4_leevb"), ExtResource("5_jjnx1"), ExtResource("6_url4j"), ExtResource("7_wq4se"), ExtResource("8_wqxgs"), ExtResource("9_cq0qh")])
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=2140461473]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 4

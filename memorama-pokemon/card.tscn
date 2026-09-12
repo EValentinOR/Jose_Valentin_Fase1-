@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://ckmt4kgew8voe"]
+
+[ext_resource type="Script" uid="uid://p8r3wy42y4yy" path="res://card.gd" id="1_q5obu"]
+[ext_resource type="Texture2D" uid="uid://b63h3rqc7gx1o" path="res://memorama_images/POKEBALL.jpg" id="3_fpac0"]
+
+[node name="Card" type="TextureButton" unique_id=1421740370]
+custom_minimum_size = Vector2(100, 140)
+offset_right = 100.0
+offset_bottom = 140.0
+script = ExtResource("1_q5obu")
+
+[node name="Front" type="TextureRect" parent="." unique_id=205913021]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Back" type="TextureRect" parent="." unique_id=292142878]
+custom_minimum_size = Vector2(100, 140)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_fpac0")
+expand_mode = 1
+stretch_mode = 5
