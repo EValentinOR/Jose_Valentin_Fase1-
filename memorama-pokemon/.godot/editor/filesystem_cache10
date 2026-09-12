@@ -1,0 +1,16 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1788025502
+card.gd::GDScript::1122040505504520524::1787871460::0::1::::Card<>TextureButton<><>0<>0<><>::
+card.tscn::PackedScene::5500708282415838876::1787871460::0::1::::<><><>0<>0<><>::uid://p8r3wy42y4yy::::res://card.gd<>uid://b63h3rqc7gx1o::::res://memorama_images/POKEBALL.jpg
+icon.svg::CompressedTexture2D::3116890300516378544::1787868464::1787868507::1::::<><><>0<>0<>68da28ee7224cbc1be1a0d9fae28dd52<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+memory_game.gd::GDScript::1746962782256505194::1787871203::0::1::::<>Control<><>0<>0<><>::
+memory_game.tscn::PackedScene::4264269926916541331::1787870942::0::1::::<><><>0<>0<><>::uid://y5ihsnhbiivq::::res://memory_game.gd<>uid://ckmt4kgew8voe::::res://card.tscn<>uid://8rpouckj3rh5::::res://memorama_images/AGUMON.jpg<>uid://dym5khojgddrv::::res://memorama_images/CHARMANDER.jpg<>uid://c42h2c2hmyhdq::::res://memorama_images/JIRACHI.jpg<>uid://bsagu13al5xol::::res://memorama_images/MARILL.jpg<>uid://bh5xiiwr8q3a::::res://memorama_images/PIKACHU.jpg<>uid://cm6lyt3pw558b::::res://memorama_images/PIPLUP.jpg<>uid://bumcru2upcy8q::::res://memorama_images/SYLVEON.jpg
+::res://memorama_images/::1787868652
+AGUMON.jpg::CompressedTexture2D::2352263071904363776::1787868381::1787868651::1::::<><><>0<>0<>77fa77a58856acd441b9bd6cedccdf1f<>res://.godot/imported/AGUMON.jpg-8a6860ad179eea7b19a5cd442672fea7.ctex::
+CHARMANDER.jpg::CompressedTexture2D::8870406588870612219::1787868144::1787868651::1::::<><><>0<>0<>c4fad41dfb1285e979ac8ac5977b756d<>res://.godot/imported/CHARMANDER.jpg-3d50c3725b88992ee3b8ea416dec1d90.ctex::
+JIRACHI.jpg::CompressedTexture2D::6864529414725007666::1787868245::1787868651::1::::<><><>0<>0<>eb7320ee1dbd365a2d7a9036e1ad5501<>res://.godot/imported/JIRACHI.jpg-19a03574124066985951cac23b24a1ea.ctex::
+MARILL.jpg::CompressedTexture2D::3650221295889913955::1787868277::1787868651::1::::<><><>0<>0<>0bff5a5ab27367cff19493b1d7591345<>res://.godot/imported/MARILL.jpg-08b7d850e49a23b667aaf7d360359cf7.ctex::
+PIKACHU.jpg::CompressedTexture2D::86502504528107344::1787868409::1787868651::1::::<><><>0<>0<>e133194725aa03697a7e2f3b9cbc8fa1<>res://.godot/imported/PIKACHU.jpg-58336b5c573a29813d7a825ac22635e6.ctex::
+PIPLUP.jpg::CompressedTexture2D::5679814989302914443::1787868120::1787868652::1::::<><><>0<>0<>a870e0432ff6aef7deb9ba8f48a191ed<>res://.godot/imported/PIPLUP.jpg-c4c25bed31bcecfdd98f57e9ce7e92c9.ctex::
+POKEBALL.jpg::CompressedTexture2D::4620553352512201038::1787868094::1787868652::1::::<><><>0<>0<>d74db8642e71239ff6e627de6e77904e<>res://.godot/imported/POKEBALL.jpg-b57e06c6797d3c7c8eaedfb82801a8f2.ctex::
+SYLVEON.jpg::CompressedTexture2D::3815122975089965330::1787868222::1787868652::1::::<><><>0<>0<>0edf9a5d942e7d452d4b9edc97a4c191<>res://.godot/imported/SYLVEON.jpg-a8cabb9baa701de6a0752c8769c0de8e.ctex::
